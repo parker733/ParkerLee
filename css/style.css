@@ -1,0 +1,138 @@
+:root {
+  --bg-color: #F1E4E8;
+  --primary-text-color: #FF4081;
+  --secondary-text-color: #FF669A;
+}
+@font-face {
+    font-family: Basictitlefont;
+    src: url(css/font/Basictitlefont.ttff);
+}
+body{
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: var(--bg-color);
+	color: var(--secondary-text-color);
+	font-family: Basictitlefont;	
+}
+a{
+	color: var(--primary-text-color);
+}
+a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: var(--primary-text-color);
+}
+a:focus{
+	text-decoration: none;
+	color: var(--primary-text-color);
+	font-weight: bold;
+}
+a:active{
+	font-style: italic;
+}
+#menu:focus{
+	font-weight: bold;
+}
+#menu:hover{
+	font-weight: bold;
+}
+#menu{
+	color: var(--primary-text-color);
+	cursor: pointer;
+}
+.page-header {
+  border-bottom: 1px solid var(--primary-text-color);
+}
+.instrution-text1{
+	color: var(--primary-text-color);
+}
+.contianer{
+	padding-right: .9375rem;
+	padding-left: .9375rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+.top-bar{
+	margin-top: 20px;
+}
+#page-logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+.nav-bar-collapse{
+	padding: 0;
+	padding-top: 20px;
+	position: relative;
+	padding-bottom: 40px;
+	border-bottom: dotted;
+}
+#menu{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+}
+
+.nav-container{
+	text-align: center;
+}
+.nav-item{
+	color: var(--primary-text-color);
+}
+.page-header{
+	color: var(--primary-text-color);
+}
+.about{
+	
+}
+.content{
+}
+#face{
+	width:400px;
+	float: left;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+.word{
+	display: block;
+	overflow: hidden;
+}
+#about{
+
+}
+
+.page-header{
+
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.thumbnail img{
+	height: 15em;	
+}
+
+.footer{
+	text-align: center;
+}
+
+/* STYLE FOR WORKS */
+.works-content{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.works-img{
+	float: left;
+	width: 500px;
+}
+.works-about{
+
+}
+.works-back{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+

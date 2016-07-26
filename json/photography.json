@@ -1,0 +1,43 @@
+{
+  "location" : {
+    "Taiwan" : {
+      "Capital" : "Taipei",
+      "Language" : "Mandarin",
+      "Album": {
+        "Fangyuan": {
+          "image" : [
+            "img/photography/Fangyuan/Fangyuan.1.png",
+            "img/photography/Fangyuan/Fangyuan.2.png",
+            "img/photography/Fangyuan/Fangyuan.3.png"
+          ]
+        }
+      } 
+    },
+    "America" : {
+      "Capital" : "Washington D.C.",
+      "Language" : "English",
+      "Album": {
+        "Newyork": {
+          "image" : [
+            "img/photography/Fangyuan/Newyork.1.png",
+            "img/photography/Fangyuan/Newyork.2.png",
+            "img/photography/Fangyuan/Newyork.3.png"
+          ]
+        }
+      } 
+    },
+    "Japan" : {
+      "Capital" : "Tokiyo",
+      "Language" : "Japnese",
+      "Album": {
+        "Narita": {
+          "image" : [
+            "img/photography/Fangyuan/Narita.1.png",
+            "img/photography/Fangyuan/Narita.2.png",
+            "img/photography/Fangyuan/Narita.3.png"
+          ]
+        }
+      } 
+    }
+  }
+}
